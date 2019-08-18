@@ -1,0 +1,20 @@
+/*
+$breakpoints: (
+  small: 0px,
+  medium: 640px,
+  large: 1024px,
+  xlarge: 1200px,
+  xxlarge: 1440px,
+);
+
+*/
+
+
+/* Global classes: typo, color etc.. */
+	body *{font-family: 'Open Sans', sans-serif !important;}
+	ul, ul li{margin:0; paddding:0; list-style-type:none}
+	
+	
+	
+	.tictacBoard{background:#000;display:table; width:300px;}
+	.tictacBoard li{display:table-cell;border:1px solid #fff;color:#fff;font:50px bold Verdana; text-align:center; vertical-align:middle;float:left; width:100px; height:100px;padding:15px 0}
